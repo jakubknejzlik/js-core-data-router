@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/jakubknejzlik/js-core-data-router/issues"
   },
-  "homepage": "https://github.com/jakubknejzlik/js-core-data-router#readme"
+  "homepage": "https://github.com/jakubknejzlik/js-core-data-router#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "express-response-error": "^0.2.1",
+    "express-response-range": "^0.2.5"
+  }
 }
