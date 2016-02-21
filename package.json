@@ -1,0 +1,25 @@
+{
+  "name": "js-core-data-router",
+  "version": "0.0.1",
+  "description": "Rest API router for js-core-data database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubknejzlik/js-core-data-router.git"
+  },
+  "keywords": [
+    "js-core-data",
+    "rest",
+    "api",
+    "router"
+  ],
+  "author": "Jakub Knejzlik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakubknejzlik/js-core-data-router/issues"
+  },
+  "homepage": "https://github.com/jakubknejzlik/js-core-data-router#readme"
+}
