@@ -1,6 +1,6 @@
 {
   "name": "js-core-data-router",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rest API router for js-core-data database",
   "main": "index.js",
   "scripts": {
