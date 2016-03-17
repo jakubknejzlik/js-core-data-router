@@ -96,7 +96,7 @@ module.exports = (entityName, options = {})->
   router.get('/:id',(req,res,next)->
     req.context.getObjectWithId(entityName,req.params.id).then((item)->
       if not item
-        res.notFound(entityName + ' with id ' + req.params.id + ' not found')
+        return res.notFound(entityName + ' with id ' + req.params.id + ' not found')
       getter({item:item,req:req}).then((data)->
         res.send(data)
       )

@@ -16,7 +16,7 @@ module.exports = (entityName, options = {})->
     console.log('!!!!')
     req.context.getObjectWithId(entityName,req.params.id).then((item)->
       if not item
-        res.notFound(entityName + ' with id ' + req.params.id + ' not found')
+        return res.notFound(entityName + ' with id ' + req.params.id + ' not found')
       req.item = item
       return setterFunction({req:req,item:item})
     ).then(()-> next()).catch(next)
