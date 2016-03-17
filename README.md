@@ -3,7 +3,9 @@
 # Example (GET/POST/PUT methods)
 
 ```
-app.use('/users',coreRouter.ALL('User',{
+router = new CoreDataRouter()
+
+app.use('/users',router.all('User',{
   getValues:(req,item,callback)->
     item.getPublicValues(req,callback)
   setValues:(req,item,values,callback)->

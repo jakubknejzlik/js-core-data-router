@@ -24,10 +24,17 @@
   "homepage": "https://github.com/jakubknejzlik/js-core-data-router#readme",
   "dependencies": {
     "async": "^1.5.2",
+    "bluebird": "^3.3.4",
     "body-parser": "^1.15.0",
     "cors": "^2.7.1",
     "express": "^4.13.4",
     "express-response-error": "^0.2.1",
-    "express-response-range": "^0.2.5"
+    "express-response-range": "^0.2.5",
+    "js-core-data": "^1.3.14"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0",
+    "supertest-promised": "^1.0.0"
   }
 }
