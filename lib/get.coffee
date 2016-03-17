@@ -1,10 +1,8 @@
 express = require('express')
 cors = require('cors')
 async = require('async')
-#bodyParser = require('body-parser')
-#acceptLanguage = require('accept-language')
-#expressErrorResponse = require('express-response-error')
 expressResponseRange = require('express-response-range')
+Promise = require('bluebird')
 
 
 processOrderParam = (order)->
